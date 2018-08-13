@@ -1,0 +1,36 @@
+body {
+
+}
+img {
+
+}
+.navbar
+{
+
+}
+article {
+
+}
+nav {
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 100%) { 
+    .contact_social { display: none; }
+    .home_action { display: none; }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 100%) and (max-width: 100%) { 
+    .home_action { display: none; }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+}

@@ -1,0 +1,81 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Include to ensure responsive pages are displayed correctly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap and custom CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/b.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
+    <script src="/js/b.js"></script>
+    
+    
+    
+    <!-- Fav & iOS icons location -->
+
+
+</head>
+    <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+
+
+
+
+<!-- Nav -->
+        <nav class="nav" style="text-align: center ;">
+
+
+        <img class = "row" style="top: 10px; left: 30px; height:30px; position: relative;"> 
+                <h4 style="">  
+                    <a href="/a" style="text-align: center;"> A </a> | 
+                    <a href="/b" style="text-align: center;"> <font color="grey">B</font> </a> |       
+                    <a href="/c" style="text-align: center;"> C </a> | 
+                    <a href="/d" style="text-align: center;"> D </a>
+                </h4>
+
+
+        </nav>
+
+    </div>
+
+    
+    </nav>
+    <div class="container">
+        <form id="addEventForm" role="form" method="get" action="/addEvent" style="padding-top: 80px;">
+            <h4 style="color:#3399ff">
+                <b>Already Verified URLs</b>
+        </h4>
+            <a class="btn btn-default" href="#">Import Event
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            </a> (Unimplemented)
+
+            <h4 style="color:#3399ff;">
+                
+            <b>Verify a Questionable URL</b>
+            </h4>
+            <h5><b>Input the URL below:</b></h5>
+
+            <div class="input-group">
+                <span class="input-group-addon">URL*</span>
+                <input type="text" class="form-control" name="eventname" placeholder="Enter URL" required maxlength="25" style="height: 30px;">
+            </div>
+            <p></p>
+
+            <p></p>
+            <p>*Required fields.</p>
+            <input type="submit" id="submitBtn" class="btn btn-primary" value="Verify">
+            <p></p>
+            <a class="btn btn-primary" href="/a">Refresh Page   
+            </a>
+        </form>
+    </div> 
+    </body>
+</html>
+   
